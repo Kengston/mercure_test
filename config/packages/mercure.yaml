@@ -1,0 +1,9 @@
+# config/packages/mercure.yaml
+mercure:
+    hubs:
+        default:
+            url: 'http://127.0.0.1:3001/.well-known/mercure'
+            jwt:
+                secret: 'your-256-bit-secretyour-256-bit-secret'
+                publish: ['*']
+                subscribe: ['*']
